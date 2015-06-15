@@ -28,7 +28,7 @@ class HelperImageUploaderCore extends HelperUploader
 {
 	public function getMaxSize()
 	{
-		return (int)Tools::getMaxUploadSize();
+		return Tools::getMaxUploadSize();
 	}
 
 	public function getSavePath()
